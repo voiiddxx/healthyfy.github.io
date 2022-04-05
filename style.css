@@ -15,10 +15,10 @@ body{
     font-family: sans-serif;
 }
 .nav-bar img{
-    border-radius: 50%;
+    border-radius: 100%;
     height:75px;
     float: left;
-    margin-left: 90px;
+    margin-left: 142px;
 }
 
 .menu-right{
@@ -146,11 +146,73 @@ span{
     line-height: 2%;
     padding: 7px;
 }
-.margin-btn a:hover{
+.prime-btn a:hover{
     background-color: #102d47;
     color: #f9fbff;
     background-color: rgb(255, 255, 255);
     color: #000000;
+}
+
+
+
+
+/*====whyuss 2nd part===*/
+.why-container h1{
+    color: #102d47;
+    text-align: center;
+    font-family:  "Heebo" sans-serif;
+    font-weight: 600;
+    margin-top:80px;
+
+}
+.why-container p{
+    font-family: 'Heebo' sans-serif;
+    text-align: center;
+}
+.why-parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.why-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    width: 300px;
+    margin-top: 50px;
+
+}
+.why-card img{
+    height: auto;
+    width: 15vh;
+}
+.why-card h1{
+    margin-top: 14px;
+    font-size: 20px;
+    font-family: 'Heebo' sans-serif;
+    font-weight: 500;
+}
+.why-card p{
+    text-align: center;
+    font-family: 'Heebo' sans-serif;
+}
+.why-card a{
+    text-decoration: none;
+    font-weight: 200;
+    background-color: #102d47;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.why-card a:hover{
+    background-color: white;
+    color: #102d47;
+    transition: 0.7s ease;
 }
 /*====trust===*/
 
@@ -206,9 +268,10 @@ border-radius: 50%;
 
     background-color: #F8F9F9;
 }
-.choose-head{
-    padding-top: 50px;
-}
+.choose-head {
+    padding-top: 138px;
+    margin-bottom: -94px;
+  }
 .choose-head  h1{
     padding-top: 50px;
     text-align: center;
@@ -319,7 +382,7 @@ border-radius: 50%;
 }
 .consult-main-image{
     flex-basis: 40%;
-    margin-left: 87px;
+    margin-left: 267px;
 }
 .consult-main-image img{
     height: auto;
@@ -597,13 +660,20 @@ border-radius: 50%;
 
 
 /*=====popular-product===*/
+
+.popular-product{
+    margin-top: 134px;
+margin-bottom: 56px;
+
+}
+
 .popular-heading h2 {
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Heebo' sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     color: #102d47;
-    margin-left: 57px;
-    margin-top: 43px;
+  text-align:center;
+  margin-bottom: 35px;
   }
 
 
@@ -620,6 +690,8 @@ border-radius: 50%;
     max-width: 250px;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
  margin-left: 45px;
+ margin-bottom: 25px;
+ padding-bottom: 34px;
 
 
 }
@@ -657,7 +729,7 @@ border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10vh;
+    margin-top: 1vh;
  
 }
 .all-product-link a{
@@ -683,6 +755,7 @@ border-radius: 50%;
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 143px;
 
 }
 .extra-text{
@@ -832,7 +905,7 @@ border-radius: 50%;
 	z-index: -1;
 }
 .contact-box{
-	max-width: 850px;
+	max-width: 1166px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	justify-content: center;
@@ -1059,60 +1132,21 @@ textarea{
         .choose-head{
             padding-bottom: 106px;
         }
-
-        .special-part{
-            display: flex;
-            flex-direction: column-reverse;
-
-        }
-        .special-image{
-            flex-basis: 100%;
-            margin-left: 40px;
-        }
-        .special-text{
-            margin-left: 20px;
-            margin-right: 10px;
-            margin-top: 10px;
-        }
-
-        .special-part-2{
-            display: flex;
-            flex-direction: column-reverse;
-            padding-bottom: 44px;
-
-        }
-        .special-image-2{
-            flex-basis: 100%;
-            margin-left: 40px;
-        }
-        .special-text-2{
-            margin-left: 20px;
-            margin-right: 10px;
-            margin-top: 10px;
-        }
-
+.child-img{
+    width: auto;
+height: 15vh;
+}
         
-
-        
-        .special-part-3{
-            display: flex;
-            flex-direction: column-reverse;
-
-        }
-    
-    .special-image-3{
-        flex-basis: 100%;
-        margin-left: -53px;
-    }
-    .special-image-3 img{
-        height: auto;
-        width: 58;
-    }
-    .special-text-3{
+    .child p a {
+        text-decoration: none;
+        background-color: #102d47;
+        color: white;
+        text-align: center;
+        padding: 5px;
+        font-size: 13px;
+        border-radius: 4px;
         margin-left: 20px;
-        margin-right: 10px;
-        margin-top: 10px;
-    }
+      }
     /*===consult part===*/
     .consult-heading{
         margin-top: -64px;
@@ -1124,7 +1158,11 @@ textarea{
     .consult-main-image img {
         height: auto;
         width: 37vh;
-      }
+     
+            margin-left: 41px;
+            margin-right: 26px;
+          }
+         
       .consult-main-image {
         flex-basis: 40%;
         margin-left: -10px;
@@ -1134,6 +1172,10 @@ textarea{
         margin-left: 56px;
         margin-right: -3px;
       }
+
+.consult-row{
+    margin-left: -14px;
+}
 
       .shop-part{
           display: flex;
@@ -1149,7 +1191,7 @@ textarea{
       .shop-image img {
         height: auto;
         width: 39vh;
-        margin-left: 66px;
+        margin-left: 45px;
 
         padding-top: 42px;
       }
@@ -1161,7 +1203,10 @@ textarea{
         font-family: 'Heebo' sans-serif;
         margin-left: 116px;
         color: #102d47;
-        margin-top: -143px;
+        margin-top: -123px;
+      }
+      .shop-text p{
+          margin-left: 123px;
       }
 
      
@@ -1176,13 +1221,13 @@ textarea{
       }
       .extra-image img{
           height: auto;
-          width: 25vh;
-          margin-left: 140px;
+          width: 28vh;
+          margin-left: 68px;
       }
       
       .extra-text {
         flex-basis: 100%;
-        margin-left: 43px;
+        margin-left: -86px;
       }
 
       .extra-text h1{
@@ -1196,11 +1241,41 @@ textarea{
           display: flex;
           flex-direction: column;
       }
+
+      .prime-card{
+          width: 306px;
+      }
+      .popular-heading h2 {
+        font-size: 40px;
+        font-family: 'Heebo' sans-serif;
+        font-weight: 600;
+        color: #102d47;
+        margin-left: 25px;
+        margin-top: 43px;
+        margin-bottom: 29px;
+      }
+      .prime .prime-head {
+          margin-bottom: -54px;
+      }
       
       
    .contact-box{
     grid-template-columns: 1fr;
 }
+.contact-container{
+    padding: 20px 23px;
+}
+
+.left {
+    background: url("./images/login-image.webp") no-repeat center;
+      background-color: rgba(0, 0, 0, 0);
+      background-size: auto;
+    background-size: 20vh;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+  }
+
+
 .left{
     height: 200px;
 }
