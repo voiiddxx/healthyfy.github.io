@@ -79,14 +79,14 @@ span{
       background-color: #AED6F1;
       flex-basis: 70%;
       position: relative;
-      margin-top: 51px;
+      margin-top: -3px;
       margin-right: -91px;
+      margin-left: 184px;
 
   }
-  .hero-image img{
-      height: auto;
-      width: 65%;
-
+  .hero-image img {
+    height: auto;
+    width: 60%;
   }
   .hero-text {
       font-family: 'Heebo' sans-serif;
@@ -122,15 +122,36 @@ span{
       border-radius: 5px;
       line-height: 2%;
       padding: 7px;
+      margin-right: -139px;
   }
   .hero-text a:hover{
       background-color: rgb(255, 255, 255);
       color: #000000;
   }
+  .hero-btn2{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #102d47;
+    font-family: 'Heebo' sans-serif;
+    font-weight: 400;
+    position: relative;
+    margin-top: 10vh;
+    margin-left: 8vh;
+    border: 1px solid white;
+    border-radius: 5px;
+    line-height: 2%;
+    padding: 7px;
+  }
+  .hero-btn2:hover{
+    background-color: #102d47;
+    color: #f9fbff;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+  }
 
   .prime-btn {
     position: relative;
-    margin-left: 21vh;
+    margin-left: 19vh;
     margin-top: -24px;
   }
   .prime-btn a{
@@ -139,7 +160,7 @@ span{
     font-family: 'Heebo' sans-serif;
     font-weight: 400;
     position: relative;
-    margin-top: 10vh;
+    margin-top: 9vh;
  
     border: 1px solid white;
     border-radius: 5px;
@@ -1055,6 +1076,37 @@ textarea{
 
 /*responsive======*/
 
+
+
+@media only screen and (max-width:1480px){
+   
+    .hero-image {
+        flex-shrink: inherit;
+        background-color: #AED6F1;
+        flex-basis: 70%;
+        position: relative;
+        margin-top: 49px;
+        margin-right: -15px;
+        margin-left: -1px;
+      }
+    
+  .hero-image img{
+    height: auto;
+    width: 82%;
+
+}
+.consult-main-image {
+    flex-basis: 40%;
+    margin-left: 123px;
+  }
+  .extra-part{
+      margin-left: -16px;
+  }
+
+}
+
+
+
 @media only screen and (max-width:700px){
    
     span
@@ -1084,6 +1136,10 @@ textarea{
         margin-left: 32px;
         margin-top: 50px;
     }
+    .hero-image img{
+        height: auto;
+        width: 86%;
+    }
     .hero-text{
         flex-basis: 100%;
         margin-left: -120px;
@@ -1098,7 +1154,12 @@ textarea{
     .hero-text p{
         text-align: justify;
         font-size: 13px;
+        margin-left: 18vh;
 
+    }
+    .prime-btn{
+        display: none;
+        margin-left: 19vh;
     }
 
     .whyyy {
@@ -1222,12 +1283,12 @@ height: 15vh;
       .extra-image img{
           height: auto;
           width: 28vh;
-          margin-left: 68px;
+          margin-left: 193px;
       }
       
       .extra-text {
         flex-basis: 100%;
-        margin-left: -86px;
+        margin-left: 73px;
       }
 
       .extra-text h1{
@@ -1279,5 +1340,19 @@ height: 15vh;
 .left{
     height: 200px;
 }
+}
+@media only screen and (max-width:375px){
+    .prime-btn{
+        margin-left: 22vh;
+        display:none;
+    }
+    .hero-text p{
+        margin-left: 
+        19vh;
+    }
+    .hero-text a{
+        margin-left: 17vh;
+    }
+
 }
 
