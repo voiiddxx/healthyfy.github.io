@@ -68,11 +68,17 @@ span{
       margin-top: -3px;
 
 
+
+
+
+      
+
   }
   .hero-image img {
     height: auto;
     width: 70%;
   }
+
   .hero-text {
       background-color: #AED6F1;
       font-family: 'Heebo' sans-serif;
@@ -671,6 +677,11 @@ border-radius: 50%;
 }
 
 
+
+
+
+
+
 /*=====popular-product===*/
 
 .popular-product{
@@ -1150,7 +1161,7 @@ textarea{
     .hero-text p{
         text-align: justify;
         font-size: 13px;
-        margin-left: 18vh;
+        margin-left: 156px;
 
     }
     .prime-btn{
@@ -1169,7 +1180,7 @@ textarea{
 
       /*===doctor===*/
       #team{
-          margin-top: 12vh;
+          margin-top: 200px;
       }
 
 
@@ -1206,7 +1217,7 @@ height: 15vh;
       }
     /*===consult part===*/
     .consult-heading{
-        margin-top: -64px;
+        margin-top: 180px;
     }
     .consult-part{
         display: flex;
@@ -1342,13 +1353,11 @@ height: 15vh;
         margin-left: 22vh;
         display:none;
     }
-    .hero-text p{
-        margin-left: 
-        19vh;
-    }
+  
     .hero-text a{
         margin-left: 17vh;
     }
 
 }
+
 
